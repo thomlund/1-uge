@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="radio_on_value_drag" id="b=cbLe6-_q`79nJKHi3g" x="-2" y="-275"><value name="HANDLER_DRAG_PARAM_name"><block type="argument_reporter_string" id="Xz_S^$H::ff*7[e_a~Ot"><mutation duplicateondrag="true"></mutation><field name="VALUE">name</field></block></value><value name="HANDLER_DRAG_PARAM_value"><block type="argument_reporter_number" id="@Qv?l;EE{yHSaA79.MPI"><mutation duplicateondrag="true"></mutation><field name="VALUE">value</field></block></value><statement name="HANDLER"><block type="radio_datagram_send" id="H3Kl1!;OzC:v=(wjYT@2"><value name="value"><shadow type="math_number" id="Z_n=v/n~KWHoPh1jJE^!"><field name="NUM">8</field></shadow></value></block></statement></block><block type="pxt-on-start" id="I#!meK5J5lM9-;W7G$|3" x="-9" y="-139"><statement name="HANDLER"><block type="radio_set_group" id="KHpn$gy_]JJkw]Kf/Mwj"><value name="ID"><shadow type="math_number_minmax" id="1%z!Bd|m7tkhC+Mxq*g|"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></statement></block><block type="radio_on_string_drag" id="#/Xj*vWc*DnF4+Z$|Ry+" x="0" y="0"><value name="HANDLER_DRAG_PARAM_receivedString"><block type="argument_reporter_string" id="x,}%C=):swj7xDizT};L"><mutation duplicateondrag="true"></mutation><field name="VALUE">receivedString</field></block></value><statement name="HANDLER"><block type="device_print_message" id=")rG-Z{$F`sSG]0/odM[w"><value name="text"><shadow type="text" id="U])3BJ%p]U0F0|znrHAF"><field name="TEXT">Hello!</field></shadow><block type="argument_reporter_string" id="T{]6I!EAo2~ob04=^U~."><field name="VALUE">receivedString</field></block></value></block></statement></block><block type="device_forever" id="2nbm,_@^5NZb(T:-xTu(" x="38" y="139"><statement name="HANDLER"><block type="device_show_leds" id="21:K(SLe8op#!lK9RbK$"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        . # # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="|@P:/Bz000)hBhMA2hlL" x="-46" y="466"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="dhrxHa}2ZG^}*.V]Y-CF"><value name="msg"><shadow type="text" id="U8oEtR(7t|;:D2szM;J;"><field name="TEXT">ANTON LEGO FIGUR</field></shadow></value><next><block type="device_show_leds" id="K)}007NU:fhk,=M9o1LL"><field name="LEDS">`
+        . # . # . 
+        . . # # # 
+        . . # # # 
+        . . . # . 
+        . . # . #
+        `</field></block></next></block></statement></block><block type="device_button_event" id="4s_uZ@q+OYelY-=Ws9Nz" x="-39" y="825"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="zLt:j0{H6W`9SwW,G{|]"><value name="msg"><shadow type="text" id="Z$yTms$-a38$4y1[a?,]"><field name="TEXT">LORT</field></shadow></value><next><block type="device_show_leds" id="$T?U,j36QKXe*R`WCu*r"><field name="LEDS">`
+        . # . # . 
+        . . # # # 
+        . . # . # 
+        . . . # . 
+        . . # . #
+        `</field></block></next></block></statement></block></xml>
